@@ -26,14 +26,14 @@
 		</tr>
 		<tr>
 			<td>Gender :</td>
-			<td><form:radiobutton path="gender" value="M" label="M" /> 
+			<td><form:radiobutton path="gender" value="Male" label="Male" /> 
 				<form:radiobutton path="gender" value="F" label="F" /></td>
 		</tr>
 		<tr>
 			<td>Country :</td>
 			<td><form:select path="country">
 				<form:option value="0" label="Select" />
-				<form:option value="1" label="IND" />
+				<form:option value="1" label="Hyderabad" />
 				<form:option value="2" label="CHN" />
 				<form:option value="3" label="US" />
 				<form:option value="4" label="UK" />
